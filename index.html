@@ -6,33 +6,64 @@
         <title>Divest Quiz</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./style.css"> 
-        
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="start.js"></script>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
         <link rel="stylesheet" href="style.css">
         
     </head>
     <body>
-        <div id="start-prompt">
-            <h2> You will have 80 seconds to answer a series of questions on divesting according to the Pink Pill. </h2>
-            <h3>Are you Ready?</h3>
-            <hr>
-            <button id="start">Start</button>
-        </div>
-        
-        <h4 id="questions-text"></h4>
-        <div id="answers"></div>
-        
-        
-        <h3>Seconds remaining:</h3>
-        <span id="timer-count"></span>
-        
-        <div> Correct:
-            <span id="correct"></span>
-        </div> 
-        <div> Incorrect:
-            <span id="incorrect"></span>
-        </div>
+        <main>
+            <div id="start-prompt">
+                <h2> You will have 80 seconds to answer a series of questions on divesting according to the Pink Pill. </h2>
+                <h3>please watch the following video first</h3>
+                <video class="responsive-video" controls>
+                    <source src="https://www.youtube.com/watch?v=RjkHpuR70Ys" type="video/mp4">
+                </video>
+                <h3>If you want a challenge, get straight to the quiz by clicking the start button below! </h3>
+                <hr>
+                <button id="start"><h3>Start</h3></button>
+            </div>
+            <div id="questions">
+                <h4 id="questions-text"></h4>
+                <div id="answers"></div>
+                
+                <h3>Seconds remaining:</h3>
+                <div id="timer-count"></div>
+                <hr>
+                <h3> Correct:
+                    <span id="correct"></span>
+                </h3> 
+                <h3> Incorrect:
+                    <span id="incorrect"></span>
+                </h3>
+            </div>
+        </main>
+            
+        <!-- TODO add a div to link to video describing the acronym after timer is done.  -->
+        <footer class="page-footer">
+            <div class="container">
+                <div class="row">
+                    <h5> Divest acronym and definition by Christelyn Karazin AKA The Pink Pill </h5>
+                    <div class="col l4 offset-l2 s12">
+                        <ul>
+                            <li><a href="https://getpinkpill.com/"> Pink Pill </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-copyright">
+                <div class="container">
+                &copy; Copyright 2021 redricasa.dev. All Rights Reserved.
+                </div>
+            </div>
+        </footer>
+        <!--JavaScript at end of body for optimized loading-->
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     </body>
     <!-- TODO add footer with source getPinkPill -->
 </html> 

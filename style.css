@@ -1,21 +1,29 @@
 body{
     background-color: pink;
     color: purple;
-    margin: auto;
-    width: 60%;
     margin-top: 5%;
 }
 
 button {
     display: block;
+    margin: auto;
     text-align: center;
     width: 20%;
 }
 
 #start-prompt{
+    margin: auto;
     display: block;
     text-align: center;
-    width: 50%
+    width: 80%;
 }
-
+#questions{
+    margin: auto;
+    display: block;
+    text-align: center;
+    width: 80%;
+}
+footer{
+    background-color: goldenrod;
+}
 /* TODO give 25% margin on the left side of screen and 10% top margin */
