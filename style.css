@@ -1,6 +1,9 @@
 body{
     background-color: pink;
     color: purple;
+    margin: auto;
+    width: 60%;
+    margin-top: 5%;
 }
 
 button {
