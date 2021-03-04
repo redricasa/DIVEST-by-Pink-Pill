@@ -1,0 +1,18 @@
+body{
+    background-color: pink;
+    color: purple;
+}
+
+button {
+    display: block;
+    text-align: center;
+    width: 20%;
+}
+
+#start-prompt{
+    display: block;
+    text-align: center;
+    width: 50%
+}
+
+/* TODO give 25% margin on the left side of screen and 10% top margin */
