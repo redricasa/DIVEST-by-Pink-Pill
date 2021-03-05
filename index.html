@@ -19,9 +19,12 @@
             <div id="start-prompt">
                 <h2> You will have 80 seconds to answer a series of questions on divesting according to the Pink Pill. </h2>
                 <h3>please watch the following video first</h3>
-                <video class="responsive-video" controls>
+                <!-- <video class="responsive-video" controls>
                     <source src="https://www.youtube.com/watch?v=RjkHpuR70Ys" type="video/mp4">
-                </video>
+                </video> -->
+                <div class="video-container responsive-video" controls>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/RjkHpuR70Ys?start=601" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
                 <h3>If you want a challenge, get straight to the quiz by clicking the start button below! </h3>
                 <hr>
                 <button id="start"><h3>Start</h3></button>
@@ -64,6 +67,8 @@
         <!--JavaScript at end of body for optimized loading-->
         <script type="text/javascript" src="js/materialize.min.js"></script>
         <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> -->
+        <script src="js/materialize.js"></script>
+        <script src="js/init.js"></script>
     </body>
     <!-- TODO add footer with source getPinkPill -->
 </html> 
